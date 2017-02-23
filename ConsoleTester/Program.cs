@@ -16,7 +16,7 @@ namespace ConsoleTester
             {
                 login.WaitForComplete();
 
-                
+                //xhpc_message
 
                 login.LogOn("dudz.business@gmail.com", "2Winter*8");
                 //hasText = somePage.ContainsText("Dixin");
