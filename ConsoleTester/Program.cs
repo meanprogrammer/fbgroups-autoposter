@@ -27,9 +27,9 @@ namespace ConsoleTester
 
                 //https://www.facebook.com/groups/1698197500455137/yourposts/
 
-
+                 
                 //TO COMMENT:
-                //get permalink
+                //get permalink?????
                 //comment id
                 //add_comment_text
             } 
