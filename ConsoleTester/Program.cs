@@ -12,18 +12,19 @@ namespace ConsoleTester
         [STAThread]
         static void Main(string[] args)
         {
-            using (FacebookLoginPage login = new FacebookLoginPage())
-            {
-                login.WaitForComplete();
+            FacebookLoginPage login = new FacebookLoginPage();
+            
+            login.WaitForComplete();
+
 
                 //xhpc_message
 
-                login.LogOn("dudz.business@gmail.com", "2Winter*8");
+            login.LogOn("dudz.business@gmail.com", "2Winter*8");
                 //hasText = somePage.ContainsText("Dixin");
 
-                login.ClearCache();
-                login.ClearCookies();
-                login.Close();
+            login.ClearCache();
+            login.ClearCookies();
+                
 
                 //https://www.facebook.com/groups/1698197500455137/yourposts/
 
